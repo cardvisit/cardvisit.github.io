@@ -53,8 +53,8 @@ body {
 
 #topl img{
   /*text-align: center;*/
-  width: 135px;
-  height: 135px;
+  width: 125px;
+  height: 125px;
 /*  padding: auto;
 */  /*margin-left: auto;
   margin-right: auto;*/
@@ -144,7 +144,7 @@ i{
 #rowl img{
   width: 60px;
   height: 60px;
-  margin-left: 17px;
+  margin-left: 20px;
   border-radius: 50%;
 }
 
@@ -201,4 +201,13 @@ a{
     padding-left: 10px;
   }
 
+}
+
+@media only screen and (max-width:400px){
+  #em{
+    padding-right: 28px;
+  }
+  #rowl img{
+    margin-left: 17px;
+  }
 }
