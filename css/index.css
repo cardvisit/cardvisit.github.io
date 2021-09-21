@@ -210,10 +210,10 @@ a{
   #rowl img{
     margin-left: 30px; 
   }
-  /*#row{
-    margin-left: -5px;
+  #row{
+    margin-left: 5px;
   }
-  #rowr{
+  /*#rowr{
     margin-left: -11px;
   }*/
 }
