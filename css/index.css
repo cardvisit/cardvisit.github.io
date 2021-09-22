@@ -144,7 +144,7 @@ i{
 #rowl img{
   width: 60px;
   height: 60px;
-  margin-left: 20px;
+  margin-left: 15px; /*20*/
   border-radius: 50%;
 }
 
@@ -188,7 +188,7 @@ a{
 #nd{
   margin-left: -8px;
 }
-@media only screen and (max-width:550px){
+/*@media only screen and (max-width:550px){
   #td{
     display: inline;
     text-align: center;
@@ -200,10 +200,13 @@ a{
   #rowr{
     padding-left: 10px;
   }
+  #rowl img{
+    margin-left: 12px;
+  }
 
-}
+}*/
 
-@media only screen and (max-width:400px){
+@media only screen and (max-width:500px){
   #em{
     padding-right: 15px;
   }
@@ -213,7 +216,16 @@ a{
   #row{
     margin-left: -5px;
   }
-  /*#rowr{
-    margin-left: -11px;
-  }*/
+  /*-------*/
+  #td{
+    display: inline;
+    text-align: center;
+  }
+  #rowb
+  {
+    padding-top: 3%;
+  }
+  #rowr{
+    padding-left: 10px;
+  }
 }
